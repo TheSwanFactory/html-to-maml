@@ -3,10 +3,16 @@
   "version": "0.0.0",
   "description": "html-to-maml",
   "license": "MIT",
-  "repository": "",
-  "author": "",
+  "repository": "https://github.com/TheSwanFactory/html-to-maml",
+  "author": "Ernest N. Prabhakar",
   "keywords": [
-    ""
+    "html",
+    "json",
+    "maml",
+    "hclang",
+    "homoiconic c",
+    "markup",
+    "translator"
   ],
   "files": [
     "lib"
@@ -22,6 +28,7 @@
     "watch:test": "npm run test -- --watch"
   },
   "dependencies": {
+    "hclang": "0.0.3"
   },
   "devDependencies": {
     "@types/chai": "^3.0.0",
