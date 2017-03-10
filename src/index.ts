@@ -1,3 +1,3 @@
-import { Greeter } from "./greeter";
+import { translate } from "./translate";
 
-export { Greeter };
+export { translate };
