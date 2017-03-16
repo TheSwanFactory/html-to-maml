@@ -1,1 +1,1 @@
-export declare const translate = 1;
+export declare const translate: (node: any) => any;

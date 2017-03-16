@@ -1,4 +1,4 @@
-// import * as frame from "hclang";
+import * as frame from "hclang";
 
 export const translate = (node: any) => {
   const type = node.type;
@@ -6,9 +6,9 @@ export const translate = (node: any) => {
     case "Element":
       return "Element";
     case "Comment":
-      return "Comment";
+      return frame.Frame.nil;
     case "Text":
-      return "Text";
+      return new frame.FrameString("Text");
     default:
       console.error(`Invalid type [${type}] for Node ${node}`);
   }
