@@ -1,1 +1,2 @@
-export declare const translate: (node: any) => any;
+import { Frame } from "hclang";
+export declare const translate: (node: any) => Frame;
