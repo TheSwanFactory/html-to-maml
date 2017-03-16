@@ -1,2 +1,1 @@
-import { translate } from "./translate";
-export { translate };
+export { translate } from "./translate";

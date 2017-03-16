@@ -1,4 +1,2 @@
-var himalaya = require('himalaya');
-import { translate } from "./translate";
-
-export { translate };
+const himalaya = require("himalaya");
+export { translate } from "./translate";
