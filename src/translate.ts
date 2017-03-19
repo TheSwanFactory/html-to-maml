@@ -1,6 +1,7 @@
 import { Frame, FrameString } from "hclang";
+export { Frame } from "hclang";
 
-const makeElement = (node: any) => {
+const makeElement = (node: any): Frame => {
   return Frame.nil;
 };
 
