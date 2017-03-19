@@ -2,6 +2,11 @@ import { Frame, FrameString } from "hclang";
 export { Frame } from "hclang";
 
 const makeElement = (node: any): Frame => {
+  const tagName = node.tagName;
+  const attributes = node.attributes;
+  const children = node.children;
+  const content = node.content;
+
   return Frame.nil;
 };
 
