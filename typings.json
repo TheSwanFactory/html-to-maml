@@ -1,5 +1,5 @@
 {
   "globalDependencies": {
-    "himalaya": "file:defs/himalaya.d.ts"
+    "himalaya": "file:src/himalaya.d.ts"
   }
 }
