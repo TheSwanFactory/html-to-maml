@@ -1,8 +1,8 @@
 {
   "resolution": "main",
   "tree": {
-    "src": "/Users/sandhya/Developer/html-to-maml/src/himalaya.d.ts",
-    "raw": "file:src/himalaya.d.ts",
-    "typings": "/Users/sandhya/Developer/html-to-maml/src/himalaya.d.ts"
+    "src": "/Users/sandhya/Developer/html-to-maml/defs/himalaya.d.ts",
+    "raw": "file:defs/himalaya.d.ts",
+    "typings": "/Users/sandhya/Developer/html-to-maml/defs/himalaya.d.ts"
   }
 }
