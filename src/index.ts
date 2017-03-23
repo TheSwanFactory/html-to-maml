@@ -5,10 +5,8 @@ import * as h from "himalaya";
 
 import { translate } from "./translate";
 
-export const framify = (source: string): Frame => {
-  return Frame.nil;
-};
-
-export const convert = (source: string): string => {
-  return "";
+export const convert = (html: string): string => {
+  let json = h.parse(html);
+  let maml = translate(json);
+  return maml.toString();
 };
