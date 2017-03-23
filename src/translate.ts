@@ -4,7 +4,7 @@ export { Frame } from "hclang";
 type Attribute = { [key: string]: any; };
 const makeBody = (attributes: Attribute, children: Array<any>): Frame => {
   return Frame.nil;
-}
+};
 
 const makeElement = (node: any): Frame => {
   const tagName = node.tagName;
