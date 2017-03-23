@@ -1,8 +1,8 @@
-import { translate } from "../src/translate";
+import { convert } from "../src/index";
 import { expect } from "chai";
 
-describe("translate", () => {
+describe("convert", () => {
   it("should exist", () => {
-    expect(translate).to.exist;
+    expect(convert).to.exist;
   });
 });
