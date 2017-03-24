@@ -28,7 +28,7 @@
     "watch:test": "npm run test -- --watch"
   },
   "dependencies": {
-    "hclang": "^0.0.4",
+    "hclang": "^0.0.5",
     "himalaya": "^0.2.5"
   },
   "devDependencies": {
