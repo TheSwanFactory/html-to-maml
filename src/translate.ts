@@ -1,7 +1,27 @@
-import { Frame, FrameString } from "hclang";
+import { Frame, FrameComment, FrameExpr, FrameNumber, FrameString, FrameSymbol } from "hclang";
+export { Frame } from "hclang";
 
-const makeElement = (node: any) => {
+type Attribute = { [key: string]: any; };
+const makeBody = (attributes: Attribute, children: Array<any>): Frame => {
   return Frame.nil;
+};
+
+const makeElement = (node: any): Frame => {
+  const tagName = node.tagName;
+  const attributes = node.attributes;
+  const children = node.children;
+  const content = node.content;
+
+  const array: Array<Frame> = [
+    new FrameSymbol(tagName),
+  ];
+
+  if (content) {
+    array.push(new FrameString(content));
+  } else {
+    array.push(makeBody(attributes, children));
+  }
+  return new FrameExpr(array);
 };
 
 export const translate = (node: any): Frame => {
